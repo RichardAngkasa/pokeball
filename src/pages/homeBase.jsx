@@ -152,7 +152,10 @@ function HomeBase() {
               </div>
             ))}
           </div>
-          <h1 className="text-right" onClick={deleteAll}>
+          <h1
+            className="text-right cursor-pointer font-bold"
+            onClick={deleteAll}
+          >
             delete all
           </h1>
         </div>
