@@ -72,9 +72,9 @@ function HomeBase() {
   }, [pokeData]);
 
   return (
-    <div className="flex justify-center items-center h-screen p-4">
+    <div className="flex justify-center md:items-center h-screen p-4">
       {/* card */}
-      <div className="flex-col md:flex md:flex-row gap-2">
+      <div className="flex-col md:flex md:flex-row gap-2 flex">
         {" "}
         <div>
           <div className="w-72 h-96 border-4 border-stroke rounded-lg bg-secondary px-4">
